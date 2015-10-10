@@ -15,7 +15,7 @@ int main()
             a = 0;
             cnt = 0;
             b = 0.5;
-            while(t>=a)
+            while(t>a)
             {
                 a += b/2.0;
                 b /= 2.0;
