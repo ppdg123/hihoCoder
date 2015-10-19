@@ -16,6 +16,7 @@ int main()
     int pcnt[200],tmp,i;
     memset(pcnt,0,sizeof pcnt);
     i = 0;
+    int maxv = 0;
     while(i<len)
     {
         pcnt[str[i]]++;
@@ -25,12 +26,13 @@ int main()
         cur[1] = abs(pcnt['R']-pcnt['Y']);
         cur[2] = abs(pcnt['B']-pcnt['Y']);
         sort(cur,cur+3);
+        if(maxv<cnt) maxv=cnt;
         if(cur[0]==val[0]&&cur[1]==val[1]&&cur[2]==val[2])
         {
             pcnt['R']=0,pcnt['B']=0,pcnt['Y']=0;
         }
         i++;
     }
-    printf("%d\n",cnt);
+    printf("%d\n",maxv);
     return 0;
 }
