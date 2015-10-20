@@ -1,13 +1,2 @@
-2
-5 5
-1 2
-1 3
-3 4
-5 2
-1 5
-5 5
-1 2
-1 3
-3 4
-5 2
-3 5
+   AAAAA BBBCDEF   GHIJKLMNOPQRSTUVWXYZ  ,   a    ,a.  c . c.d. d.        
+   AAAAA BBBCDEFGHIJKL MNOPQRSTUVWXYZ  ,  a,a.  c . c.d. d.    D
